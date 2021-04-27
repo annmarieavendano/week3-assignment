@@ -1,0 +1,57 @@
+.flex-container-item
+{
+    margin-left: 200px;
+    display: flex;
+    align-items: left;
+    box-sizing: border-box
+}
+
+.item
+ {
+    border: 2px solid lightslategray;
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 50px; 
+    float: left;
+    background-color: white;
+ }
+
+ .item-title
+ {
+   font-weight: bold;
+   font-size: smaller;
+   text-align: left;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+ }
+
+ .item-description
+ {
+   color: grey;
+   font-size: small;
+   text-align: left;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+ }
+
+.item-image > img
+{ 
+   width: 250px;
+   height: 200px;
+   object-fit: cover;
+}
+
+.item-button
+{
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
